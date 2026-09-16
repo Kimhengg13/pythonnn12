@@ -1,7 +1,10 @@
-# Secret credentials
+# Secret credentials — set these in the Vercel dashboard instead:
+#   TELEGRAM_BOT_TOKEN
+#   KV_REST_API_URL
+#   KV_REST_API_TOKEN
 .env
 
-# Bot data
+# Bot data (local only, Vercel KV is used in production)
 data.json
 
 # Python cache
